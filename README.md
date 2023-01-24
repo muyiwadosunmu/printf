@@ -1,37 +1,61 @@
-# printf
-An ALX Pair Project by Abubakar Kabiru Abba Kabiru &amp;&amp; Dosunmu Oluwamuyiwa
-[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H"README.md" [noeol] 3L, 212C[1;1H[35m#[m[35m printf[m
-An ALX Pair Project by Abubakar Kabiru Abba Kabiru [35m&amp;&aa[3;1Hmp;[m Dosunmu Oluwamuyiwa
-[34m^[[m[?1049h[34m^[[m[22;0;0t[34m^[[m[>4;2m[34m^[[m[?1h[34m^[[m=[34m^[[m[?2004h[34m^[[m[1;35r[34m^[[m[?11[5;1H2h[34m^[[m[?12l[34m^[[m[22;2t[34m^[[m[22;1t[34m^[[m[27m[34m^[[m[23m[34m^[[m[29m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[[m[6;1H[?25l[34m^[[m[35;1H"README.md"
-[1m[34m~                                                         [8;1H~                                                         [9;1H~                                                         [10;1H~                                                         [11;1H~                                                         [12;1H~                                                         [13;1H~                                                         [14;1H~                                                         [15;1H~                                                         [16;1H~                                                         [17;1H~                                                         [18;1H~                                                         [19;1H~                                                         [20;1H~                                                         [21;1H~                                                         [22;1H~                                                         [23;1H~                                                         [24;1H~                                                         [25;1H~                                                         [26;1H~                                                         [27;1H~                                                         [28;1H~                                                         [29;1H~                                                         [30;1H~                                                         [31;1H~                                                         [32;1H~                                                         [33;1H~                                                         [34;1H~                                                         [m[35;41H1,1[11CAll[1;1H[?25h[?25l[35;43H2[1;2H[?25h[?25l[35;1H[1m-- INSERT --[m[35;13H[K[35;41H1,2[11CAll[2;34r[2;1H[L[1;35r[1;2H[K[2;1Hprintf[35;41H[K[35;41H2,1[11CAll[2;1H[?25h[?25l\printf[35;43H2[2;2H[?25h[?25l[35m\\[mprintf[35;43H3[2;3H[?25h[?25l[35;1H[K[35;41H2,2[11CAll[2;2H[?25h[?25l[35;31H[A[2;2H[35;31H  [2;2H[?25h[?25l[35;31H[A[2;2H[35;31H  [2;2H[?25h[?25l[35;1HType  :qa!  a... and exit Vim[35;41H[K[35;41H2,2[11CAll[2;2H[?25h[?25l[35;31H^D[2;2H[35;31H  [5;1H[35;41H4,1[5;1H[?25h[?25l[35;31Hd[5;1H[?25h[?25l[35;32Hx[5;1H[35;31H  [5;1H[?25h[?25l[35;31H^Z[5;1H[35;1H
-[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;35r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[35;1H[1m[37m[41mE325: ATTENTION[m
-Found a swap file by the name ".README.md.swp"
-[10Cowned by: root   dated: Mon Jan 23 08:11:23 202
-[34;58H3[35;1H
-[9Cfile name: ~root/printf/README.md
-[10Cmodified: YES
-[9Cuser name: root   host name: e020ba0544ed
-[8Cprocess ID: 464 (STILL RUNNING)
-While opening file "README.md"
-[13Cdated: Mon Jan 23 08:12:23 2023
-      NEWER than swap file!
+0x11. C - printf team project
 
-(1) Another program may be editing the same file.  If thi
-[34;58Hs[35;2His the case,
-    be careful not to end up with two different instances
-of the same
-    file when making changes.  Quit, or continue with cau
-[34;58Ht[35;1Hion.
-(2) An edit session for this file crashed.
-    If this is the case, use ":recover" or "vim -r README
-[34;58H.[35;1Hmd"
-    to recover the changes (see ":help recovery").
-    If you did this already, delete the swap file ".READM
-[34;58HE[35;1H.md.swp"
-    to avoid this message.
+Group Project:                                              by Dosunmu Oluwamuyiwa & Abubakar Kabiru                                                                                   
+0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm
+ a Spur for life                                                                    
+Write a function that produces output according to a format.                        
+                                                                                    
+                                                                                    
+1. Education is when you read the fine print. Experience is what you get if you don'
+t                                                                                   
+Handle the following conversion specifiers:
 
-[32mSwap file ".README.md.swp" already exists![m
-[32m[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bo[m
-[34;58H[32mr[35;1Ht: [?25h[m[35;1H[K[35;1H
-Interrupt: [32mPress ENTER or type command to continue[m[1;1H[L[?25l[2;1H[1m[34m~                                                         [3;1H~                                                         [4;1H~                                                         [5;1H~                                                         [6;1H~                                                         [7;1H~                                                         [8;1H~                                                         [9;1H~                                                         [10;1H~                                                         [11;1H~                                                         [12;1H~                                                         [13;1H~                                                         [14;1H~                                                         [15;1H~                                                         [16;1H~                                                         [17;1H~                                                         [18;1H~                                                         [19;1H~                                                         [20;1H~                                                         [21;1H~                                                         [22;1H~                                                         [23;1H~                                                         [24;1H~                                                         [25;1H~                                                         [26;1H~                                                         [27;1H~                                                         [28;1H~                                                         [29;1H~                                                         [30;1H~                                                         [31;1H~                                                         [32;1H~                                                         [33;1H~                                                         [34;1H~                                                         [m[35;41H0,0-1[9CAll[1;1H[?25h[?25l[35;31H^Z[1;1H[35;1H
-[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0tREADME.md
+2. With a face like mine, I do better in print                                      
+Handle the following custom conversion specifiers:                                  
+                                                                                    
+3. What one has not experienced, one will never understand in print                 
+Handle the following conversion specifiers:                                         
+                                                                                    
+4. Nothing in fine print is ever good news                                          
+Use a local buffer of 1024 chars in order to call write as little as possible.      
+                                                                                    
+5. My weakness is wearing too much leopard print                                    
+Handle the following custom conversion specifier:                                   
+                                                                                    
+6. How is the world ruled and led to war? Diplomats lie to journalists and believe t
+hese lies when they see them in print                                               
+Handle the following conversion specifier: p.                                       
+                                                                                    
+7. The big print gives and the small print takes away                               
+Handle the following flag characters for non-custom conversion specifiers:          
+                                                                                    
+8. Sarcasm is lost in print                                                         
+Handle the following length modifiers for non-custom conversion specifiers:         
+                                                                                    
+l                                                                                   
+h                                                                                   
+Conversion specifiers to handle: d, i, u, o, x, X                                   
+                                                                                    
+9. Print some money and give it to us for the rain forests                          
+Handle the field width for non-custom conversion specifiers.                        
+                                                                                    
+10. The negative is the equivalent of the composer's score, and the print the perfor
+mance                                                                               
+Handle the precision for non-custom conversion specifiers.                          
+                                                                                    
+11. It's depressing when you're still around and your albums are out of print       
+Handle the 0 flag character for non-custom conversion specifiers.                   
+                                                                                    
+12. Every time that I wanted to give up, if I saw an interesting textile, print what
+ ever, suddenly I would see a collection                                            
+Handle the - flag character for non-custom conversion specifiers.                   
+                                                                                    
+13. Print is the sharpest and the strongest weapon of our party                     
+Handle the following custom conversion specifier:                                   
+                                                                                    
+14. The flood of print has turned reading into a process of gulping rather than savo
+ring                                                                                
+Handle the following custom conversion specifier:                                   
+                                                                                    
+15. *                                                                               
+All the above options work well together.
